@@ -1,0 +1,28 @@
+tasks:
+  - name: choco
+    description: Install Notepad++
+    parameters:
+      package: notepadplusplus
+      devdir: true
+
+  # VS Code extensions
+  - name: install-vscode-extension
+    description: Install Dev Containers Extension
+    parameters:
+      package: ms-vscode-remote.remote-containers
+  - name: install-vscode-extension
+    description: Install GitHub Copilot Extension
+    parameters:
+      package: GitHub.copilot
+  - name: install-vscode-extension
+    description: Install GitHub Copilot Chat Extension
+    parameters:
+      package: GitHub.copilot-chat
+  - name: install-vscode-extension
+    description: Install Claude Code Extension
+    parameters:
+      package: anthropic.claude-code
+  - name: install-vscode-extension
+    description: Install Compare (Partial Diff) Extension
+    parameters:
+      package: ryu1kn.partial-diff
