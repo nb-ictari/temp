@@ -1,3 +1,7 @@
+# Base image (win11_devbox_baseline_image_docker_hibernate) provides:
+# Docker Desktop, WSL2, Terraform, Gcloud SDK, Node.js, NVM, Python 3.12, DBT, pytest
+# SQL Developer and Teradata Studio will be added to base image once confirmed in Artifactory
+
 tasks:
   - name: choco
     description: Install Notepad++
